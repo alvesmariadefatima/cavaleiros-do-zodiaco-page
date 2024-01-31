@@ -1,0 +1,17 @@
+/* Navbar.module.css */
+
+.container {
+    text-align: right;
+    margin-right: 20px; /* Ajuste conforme necessário */
+}
+
+.linksnavbar {
+    font-family: 'Anton', sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.linksnavbar:hover {
+    color: lightskyblue;
+}
