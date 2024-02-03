@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.titulosobre {
+    color: white;
+    text-align: center;
+}
+
+.imgContainer {
+    text-align: center;
+}
+
+.main {
+    width: 60vw;
+    height: auto;
+    margin: 0 auto; /* Margens automáticas à esquerda e à direita */
+    background-color: rgba(128, 128, 128, 0.8); /* Cor cinza com 80% de opacidade */
+    padding: 20px; /* Adicionei um pouco de preenchimento para melhorar a estética */
+    border-radius: 20px;
+  }
+  
+.containermain {
+    text-align: center;
+}  
+
+.txtsobre {
+    color: white;
+    font-weight: 600;
+}

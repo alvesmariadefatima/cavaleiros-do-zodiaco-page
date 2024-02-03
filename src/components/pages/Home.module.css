@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 body {
-    background-color: #221B76;
+    background-image: url("https://8b087bdd73.cbaul-cdnwnd.com/4c5acb20dd54dac4018879e84eef2142/200000114-1a6ab1b64a/conste.jpg?ph=8b087bdd73");
 }
 
 .title {
@@ -19,6 +19,11 @@ body {
     margin-right: 20px; /* Ajuste conforme necessário para o espaçamento entre a imagem e o texto/botão */
     padding: 40px;
     text-align: center;
+}
+
+img {
+    max-width: 70%;
+    height: auto;
 }
 
 .title, .btnSaibaMais {
