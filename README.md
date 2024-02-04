@@ -42,6 +42,6 @@ Este projeto foi desenvolvido por Maria de Fátima Nunes Alves e é mantido por 
 
 ## Licença
 
-Este projeto é licenciado sob a [Licença MIT](LICENSE), o que significa que você pode utilizá-lo livremente em seus próprios projetos.
+Este projeto é licenciado sob a [Licença MIT](LICENSE.md), o que significa que você pode utilizá-lo livremente em seus próprios projetos.
 
 Divirta-se explorando o universo dos Cavaleiros do Zodíaco! 🌌🔱
