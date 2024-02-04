@@ -5,13 +5,12 @@ import Sobre from './pages/Sobre';
 import Cavaleiros from './pages/Cavaleiros';
 
 const AppRoutes = () => {
-
   return (
     <Router>
       <Routes>
-            <Route path="/Home" element={<Home />} />
-            <Route path="/Sobre" element={<Sobre />} />
-            <Route path="/Cavaleiros" element={<Cavaleiros />} />
+        <Route path="/" element={<Home />} index />
+        <Route path="/Sobre" element={<Sobre />} />
+        <Route path="/Cavaleiros" element={<Cavaleiros />} />
       </Routes>
     </Router>
   );
