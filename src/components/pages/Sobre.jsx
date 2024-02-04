@@ -26,7 +26,10 @@ function Sobre () {
             <p className={styles.txtsobre}>Uma das características marcantes do anime é a intensidade das batalhas, que muitas vezes envolvem técnicas de luta sobrenaturais, conhecidas como "Cosmo", uma espécie de energia vital que os cavaleiros podem canalizar para aumentar suas habilidades. Além disso, a série aborda temas como amizade, coragem, sacrifício e redenção.</p>
             <p className={styles.txtsobre}>Ao longo dos anos, "Cavaleiros do Zodíaco" gerou várias séries derivadas, spin-offs, filmes e outras mídias, consolidando-se como uma das franquias mais icônicas e duradouras do mundo dos animes e mangás.</p>
             </main>
+        <div className={styles.imgContainer}>
+            <img src="/saori-kido.png" alt="Saori Kido" />
         </div>
+    </div>
         <Footer />
     </div>
     );

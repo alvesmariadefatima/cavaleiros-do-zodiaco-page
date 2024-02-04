@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.txtcavaleiros {
+    font-family: 'Anton', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Isso garante que o contêiner ocupe toda a altura da tela */
+  }
+  
+.imgContainer img {
+    max-width: 100%; /* Isso garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Isso mantém a proporção da imagem */
+}
+
+.muaries, .aldebarantouro, .sagaekanondegemeos, .mascaradamortecancer, .aiolialeao, .dohkolibra, .miloescorpiao, .aiolossagitario, .shuracapricornio, .camusaquario, .afroditepeixes {
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+}
+
+.mainCavaleiros {
+    width: 60vw;
+    height: auto;
+    margin: 0 auto; /* Margens automáticas à esquerda e à direita para centralizar */
+    background-color: rgba(128, 128, 128, 0.8); /* Cor cinza com 80% de opacidade */
+    padding: 20px; /* Adicionei um pouco de preenchimento para melhorar a estética */
+    border-radius: 20px;
+}
+
+.mainCavaleiros p, h2 {
+    color: white;
+    text-align: left;
+}
+
+/* Adicionando regras de mídia para tornar responsivo para celulares */
+@media only screen and (max-width: 600px) {
+    .mainCavaleiros {
+        width: 60vw; /* Ajustando a largura para telas ainda menores */
+    }
+}
+  

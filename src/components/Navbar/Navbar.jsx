@@ -7,7 +7,7 @@ function Navbar() {
         <div className={styles.container}>
             <a className={styles.linksnavbar} href="/Home">Home</a>
             <a className={styles.linksnavbar} href="/Sobre">Sobre</a>
-            <a className={styles.linksnavbar} href="#">Cavaleiros</a>
+            <a className={styles.linksnavbar} href="/Cavaleiros">Cavaleiros</a>
         </div>
     );
 }

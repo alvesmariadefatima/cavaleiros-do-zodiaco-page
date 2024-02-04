@@ -66,3 +66,28 @@ img {
     margin-top: -650px
 }
 
+/* Adicionando regras de mídia para tornar responsivo para celulares */
+@media only screen and (max-width: 600px) {
+    .imgContainer {
+        margin-right: 0;
+    }
+
+    .title, .btnSaibaMais {
+        padding: 20px;
+    }
+
+    .btnSaibaMais {
+        margin-left: 0;
+    }
+
+    .imgCavaleiros {
+        margin-top: -150px;
+        height: 5vh;
+    }
+
+    .imgCavaleiros img {
+        margin: 0 5px;
+        padding: 10px;
+        margin-top: -350px;
+    }
+}

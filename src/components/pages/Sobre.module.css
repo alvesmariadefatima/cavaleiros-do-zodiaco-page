@@ -7,6 +7,7 @@
 
 .imgContainer {
     text-align: center;
+    flex-direction: row;
 }
 
 .main {
@@ -16,7 +17,19 @@
     background-color: rgba(128, 128, 128, 0.8); /* Cor cinza com 80% de opacidade */
     padding: 20px; /* Adicionei um pouco de preenchimento para melhorar a estética */
     border-radius: 20px;
-  }
+    margin-left: 40px;
+}
+
+.containermain {
+    display: flex;
+    flex-wrap: wrap; /* Para permitir que os elementos quebrem para a próxima linha, se necessário */
+}
+  
+.main {
+    flex: 1; /* Para ocupar o espaço disponível no contêiner flexível */
+    /* Adicione ou ajuste outros estilos conforme necessário */
+}
+  
   
 .containermain {
     text-align: center;
@@ -25,4 +38,16 @@
 .txtsobre {
     color: white;
     font-weight: 600;
+}
+
+/* Adicionando regras de mídia para tornar responsivo para celulares */
+@media only screen and (max-width: 600px) {
+    .main {
+        width: 60vw; /* Ajustando a largura para telas menores */
+        margin-left: 0; /* Removendo a margem à esquerda */
+    }
+
+    .containermain {
+        flex-direction: row; /* Alterando para layout de coluna para dispositivos móveis */
+    }
 }
